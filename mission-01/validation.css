@@ -10,21 +10,24 @@ li {
 .validations {
   display: block;
 
-  margin: 10px;
-  padding: 7px 0 7px 40px;
+  margin: 6px;
+  padding: 8px 0 8px 40px;
+
+  width: 230px;
+  height: 27px;
 
   background-color: silver;
   background-image: url(./images/validation_icon\ 2.png);
   background-repeat: no-repeat;
   background-position: 20px 50%;
 
-  width: 240px;
-  height: 27px;
-
   border-radius: 20px;
 
   text-decoration-line: none;
   color: black;
+
+  font-size: 15px;
+  line-height: 150%;
 }
 
 li {
