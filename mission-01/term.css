@@ -1,0 +1,10 @@
+dl {
+  background-color: silver;
+  width: 250px;
+  height: 259px;
+  padding: 16px;
+}
+
+.title {
+  font-size: 15px;
+}
