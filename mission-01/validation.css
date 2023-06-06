@@ -3,10 +3,10 @@
 * {
   font-family: "pretendard";
 
+  box-sizing: border-box;
+
   padding: 0px;
   margin: 0px;
-
-  box-sizing: border-box;
 }
 
 h1 {
@@ -32,7 +32,6 @@ h1 {
   background-color: #cccccc;
   background-image: url(./images/validation_icon\_2.png);
   background-repeat: no-repeat;
-  background-size: 16px 17px;
   background-position: 16px 10px;
 
   text-decoration-line: none;
