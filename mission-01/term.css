@@ -21,24 +21,27 @@
   background-color: #cccccc;
 }
 
-.sub-box1 {
-  width: 218px;
-  height: 88px;
-
-  margin-bottom: 12px;
-}
-
-.sub-box2 {
-  width: 218px;
-  height: 88px;
-}
-
 .title {
   margin-top: 0px;
   margin-bottom: 16px;
 
   font-size: 15px;
   line-height: 150%;
+}
+
+.list1 {
+  /* width: 218px; */
+  /* height: 88px; */
+
+  margin-bottom: 12px;
+}
+
+.sub-box {
+}
+
+.sub-box2 {
+  width: 218px;
+  height: 88px;
 }
 
 .term1,
@@ -50,12 +53,17 @@
   line-height: 150%;
   color: #296897;
 }
-
+.floating {
+  float: right;
+  width: 142px;
+  height: 88px;
+}
 .W3C-logo1 {
   float: left;
-
-  margin-right: 16px;
-  margin-bottom: 20px;
+  /* width: 60px; */
+  /* height: 68px; */
+  /* margin-right: 16px;
+  margin-bottom: 20px; */
 }
 
 .W3C-logo2 {
