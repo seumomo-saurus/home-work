@@ -1,35 +1,47 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+  font-family: "pretendard";
+
+  padding: 0px;
+  margin: 0px;
+
+  box-sizing: border-box;
+}
+
 h1 {
   position: absolute;
   clip-path: polygon(0 0, 0 0, 0 0);
 }
 
-li {
-  box-sizing: border-box;
+.lists {
+  margin: 6px;
+
+  list-style-type: none;
 }
 
 .validations {
   display: block;
 
-  margin: 6px;
-  padding: 8px 0 8px 40px;
+  width: 250px;
+  height: 37px;
+  padding: 8px 8px 8px 16px;
 
-  width: 230px;
-  height: 27px;
+  border-radius: 34px;
 
-  background-color: silver;
-  background-image: url(./images/validation_icon\ 2.png);
+  background-color: #cccccc;
+  background-image: url(./images/validation_icon\_2.png);
   background-repeat: no-repeat;
-  background-position: 20px 50%;
-
-  border-radius: 20px;
+  background-size: 16px 17px;
+  background-position: 16px 10px;
 
   text-decoration-line: none;
   color: black;
-
-  font-size: 15px;
-  line-height: 150%;
 }
 
-li {
-  list-style-type: none;
+.text {
+  padding-left: 20px;
+
+  font-size: 14px;
+  line-height: 150%;
 }
