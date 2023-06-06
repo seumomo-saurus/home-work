@@ -3,17 +3,17 @@
 * {
   font-family: "pretendard";
 
+  box-sizing: border-box;
+
   margin: 0px;
   padding: 0px;
-
-  box-sizing: border-box;
 }
 
 .main-box {
   width: 250px;
   height: 259px;
-  margin: 10px;
   padding: 16px;
+  margin: 10px;
 
   border: 1px solid gray;
   border-radius: 5px;
@@ -29,19 +29,15 @@
   line-height: 150%;
 }
 
+.list1::after,
+.list2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .list1 {
-  /* width: 218px; */
-  /* height: 88px; */
-
   margin-bottom: 12px;
-}
-
-.sub-box {
-}
-
-.sub-box2 {
-  width: 218px;
-  height: 88px;
 }
 
 .term1,
@@ -53,27 +49,36 @@
   line-height: 150%;
   color: #296897;
 }
-.floating {
-  float: right;
-  width: 142px;
-  height: 88px;
-}
-.W3C-logo1 {
-  float: left;
-  /* width: 60px; */
-  /* height: 68px; */
-  /* margin-right: 16px;
-  margin-bottom: 20px; */
-}
 
-.W3C-logo2 {
-  float: right;
-
-  margin-left: 16px;
+.term1 {
+  padding-left: 76px;
 }
 
 .summary1,
 .summary2 {
   font-size: 14px;
   line-height: 150%;
+}
+
+.summary1 {
+  padding-left: 76px;
+}
+
+.summary2 {
+  width: 142px;
+}
+
+.W3C-logo1 {
+  float: left;
+
+  margin-top: -88px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.W3C-logo2 {
+  float: right;
+
+  margin-top: -88px;
+  margin-left: 16px;
 }
