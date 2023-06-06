@@ -1,10 +1,71 @@
-dl {
-  background-color: silver;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+  font-family: "pretendard";
+
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+
+.main-box {
   width: 250px;
   height: 259px;
+  margin: 10px;
   padding: 16px;
+
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  background-color: #cccccc;
+}
+
+.sub-box1 {
+  width: 218px;
+  height: 88px;
+
+  margin-bottom: 12px;
+}
+
+.sub-box2 {
+  width: 218px;
+  height: 88px;
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 16px;
+
   font-size: 15px;
+  line-height: 150%;
+}
+
+.term1,
+.term2 {
+  margin-bottom: 4px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #296897;
+}
+
+.W3C-logo1 {
+  float: left;
+
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.W3C-logo2 {
+  float: right;
+
+  margin-left: 16px;
+}
+
+.summary1,
+.summary2 {
+  font-size: 14px;
+  line-height: 150%;
 }
