@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: "Pretendard";
+  font-style: normal;
+}
+
+.loginBox {
+  width: 244px;
+  height: 161px;
+  padding: 12px;
+  margin: 10px;
+
+  border-radius: 5px;
+
+  background-color: #ed552f;
+}
+
+.title {
+  margin-bottom: 8px;
+
+  color: #ffff00;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mainBox {
+  width: 220px;
+  height: 106px;
+  padding: 8px 8px 4px 8px;
+
+  border-radius: 5px;
+
+  background-color: white;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.loginForm {
+  position: relative;
+
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid gray;
+}
+
+.idBox {
+  margin-bottom: 4px;
+}
+
+.pwLabel {
+  margin-right: 7px;
+}
+
+#inputID {
+  width: 101px;
+  height: 24px;
+  padding-left: 8px;
+
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+#inputPW {
+  width: 90px;
+  height: 24px;
+  padding-left: 8px;
+
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+#loginBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 50px;
+  height: 53px;
+
+  border: 0;
+  border-radius: 5px;
+
+  background-color: #ed552f;
+
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.signUp,
+.searchIdPw {
+  color: black;
+  text-decoration-line: none;
+}
+
+.subBox {
+  width: 204px;
+  height: 36px;
+  padding-top: 4px;
+}
+
+/* .subBox::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
+
+.signUp {
+  float: left;
+  width: 62px;
+  padding-top: 4px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.signUp::before {
+  content: "▶";
+  float: left;
+  display: block;
+  margin-right: 4px;
+}
+
+.searchIdPw {
+  float: left;
+  width: 125px;
+  padding-top: 4px;
+  margin-left: 17px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.searchIdPw::before {
+  content: "▶";
+  float: left;
+  display: block;
+  margin-right: 4px;
+}
+
+li {
+  list-style-type: none;
+}

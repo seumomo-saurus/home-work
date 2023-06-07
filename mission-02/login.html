@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mission-02-login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="loginBox">
+      <h1 class="title">로그인</h1>
+
+      <div class="mainBox">
+        <form action="/" class="loginForm">
+          <div class="idBox">
+            <label for="inputID">아이디</label>
+            <input
+              type="email"
+              id="inputID"
+              placeholder="euid@euid.dev"
+              required
+            /><br />
+          </div>
+
+          <div class="pwBox">
+            <label for="inputPW" class="pwLabel">비밀번호</label>
+            <input
+              type="password"
+              id="inputPW"
+              placeholder="8자리 이상"
+              required
+              minlength="8"
+            />
+          </div>
+
+          <label for="loginBtn" hidden>로그인</label>
+          <button type="submit" id="loginBtn">로그인</button>
+        </form>
+
+        <div class="subBox">
+          <a href="/" class="signUp">회원가입</a>
+          <a href="/" class="searchIdPw">아이디 비밀번호 찾기</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
