@@ -2,7 +2,7 @@
 
 ## 로그인 박스 만들기
 
-![목표 사진](./completed.png)
+<img src="./image/completed.png">
 
 ### 조건
 
@@ -59,7 +59,7 @@
 </div>
 ```
 
-- 최소 8자리 이상 입력하도록 minlength의 값을 8로 주었고, placeholder의 값으로 최소 입력 자릿수를 안내함
+최소 8자리 이상 입력하도록 minlength의 값을 8로 주었고, placeholder의 값으로 최소 입력 자릿수를 안내함
 
 <br>
 
@@ -204,7 +204,7 @@ input 요소와 로그인 버튼의 position을 absolute로 하고 시안에 맞
 
 ## 결과물
 
-![결과 사진](./mycompleted.png)
+<img src="./image/mycompleted.png">
 
 가장 큰 박스에 그라데이션이 들어간 듯한 색을 제외하고 완료하였다.
 
