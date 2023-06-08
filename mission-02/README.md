@@ -2,13 +2,9 @@
 
 ## 로그인 박스 만들기
 
-![login box](completed.png "login box")
-
-<br>
+<img src="./img/completed.png">
 
 ### 조건
-
----
 
 - 마크업 순서
   1. 로그인(제목)
@@ -23,13 +19,7 @@
 
 ## 코드 설명
 
-<br>
-
 ### HTML
-
----
-
-<br>
 
 1. 큰 박스(loginBox) 설정
 2. 대제목 설정
@@ -54,6 +44,8 @@
 - placeholder에 값을 줘서 email의 예시를 보여줌
 - required 속성으로 필수로 입력받을 수 있도록 함
 
+<br>
+
 ```
 <div class="pwBox">
   <label for="inputPW" class="inputPwLabel">비밀번호</label>
@@ -67,7 +59,9 @@
 </div>
 ```
 
-- 최소 8자리 이상 입력하도록 minlength의 값을 8로 주었고, placeholder의 값으로 최소 입력 자릿수를 안내함
+최소 8자리 이상 입력하도록 minlength의 값을 8로 주었고, placeholder의 값으로 최소 입력 자릿수를 안내함
+
+<br>
 
 ```
 <label for="loginBtn" hidden>로그인</label>
@@ -79,10 +73,6 @@
 <br>
 
 ### CSS
-
----
-
-<br>
 
 ```
 * {
@@ -98,6 +88,8 @@
 
 모든 박스를 기본적으로 border-box로 설정하였고, padding, margin값을 0으로 초기화함
 
+<br>
+
 ```
 .loginForm {
   position: relative;
@@ -110,6 +102,8 @@
 
 자식 요소(로그인 버튼)의 position 값을 absolute로 주기 위해 position 값을 지정함
 
+<br>
+
 ```
 .inputIdLabel,
 .inputPwLabel {
@@ -119,6 +113,8 @@
 ```
 
 각 레이블의 위치가 시안 대비 약간 높게 설정되어 있어 자신의 위치를 기준으로 살짝 내리기 위해 position 및 top 값 설정
+
+<br>
 
 ```
 #inputID {
@@ -152,6 +148,8 @@
 
 input 요소와 로그인 버튼의 position을 absolute로 하고 시안에 맞게 위치를 위치를 조정
 
+<br>
+
 ```
 .signUp {
   float: left;
@@ -180,6 +178,8 @@ input 요소와 로그인 버튼의 position을 absolute로 하고 시안에 맞
 
 회원가입과 아이디 비밀번호 찾기를 float를 활용하여 배치
 
+<br>
+
 ```
 .signUp::before {
   content: "▶";
@@ -199,3 +199,13 @@ input 요소와 로그인 버튼의 position을 absolute로 하고 시안에 맞
 ```
 
 회원가입과 아이디 비밀번호 찾기 텍스트 앞에 가상 요소 선택자를 활용하여 특수문자를 삽입
+
+<br>
+
+## 결과물
+
+<img src="./img/mycompleted.png">
+
+가장 큰 박스에 그라데이션이 들어간 듯한 색을 제외하고 완료하였다.
+
+width와 height를 주지 않아도 될 요소와 줘야 할 요소가 구분이 어려웠고, 주석으로 지워도 결과물이 바뀌지 않는 값들은 삭제하였다.
