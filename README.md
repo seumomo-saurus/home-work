@@ -2,7 +2,7 @@
 
 ## 로그인 박스 만들기
 
-<img src="./image/completed.png">
+<img src="./img/completed.png">
 
 ### 조건
 
@@ -204,7 +204,7 @@ input 요소와 로그인 버튼의 position을 absolute로 하고 시안에 맞
 
 ## 결과물
 
-<img src="./image/mycompleted.png">
+<img src="./img/mycompleted.png">
 
 가장 큰 박스에 그라데이션이 들어간 듯한 색을 제외하고 완료하였다.
 
