@@ -58,7 +58,8 @@ li {
   transition-property: all;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
-  margin-left: 24px;
+
+  padding-left: 24px;
 }
 
 .linkBox:hover {
