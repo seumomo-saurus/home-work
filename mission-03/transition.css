@@ -58,20 +58,11 @@ li {
   transition-property: all;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* height: 100%; */
-  /* padding: 4px; */
   margin-left: 24px;
 }
 
 .linkBox:hover {
   padding-top: 13px;
-}
-
-.transBox {
-  flex-grow: 1;
 }
 
 .link {
