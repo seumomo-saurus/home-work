@@ -33,6 +33,7 @@
 .subBox {
   transition-property: all;
   transition-duration: 0.5s;
+  overflow: hidden;
 
   width: 166px;
   height: 29px;
