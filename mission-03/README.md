@@ -2,7 +2,7 @@
 
 ## transition 과제 (관련 사이트 영역)
 
-<img src="./images/sample.gif>
+<img src="./images/sample.gif">
 
 ### 조건
 
