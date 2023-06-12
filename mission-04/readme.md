@@ -73,7 +73,7 @@
 
 ## 결과물
 
-<img src="./images/completed.gif">
+<img src="./images/completed.png">
 
 구분선에 대한 그래디언트 효과같은 디자인적인 요소는 정확하게 구현하지는 않았고,<br>
 grid 속성을 사용해보는 데에 중점을 두었다.
