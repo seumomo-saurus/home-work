@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.favoriteSite {
+  width: 11.875rem;
+  height: 9.1875rem;
+  background: linear-gradient(180deg, #ccc 0%, #eee 100%);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+
+.favoriteSite__title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+
+  margin-top: 0;
+}
+
+.orangeText {
+  color: orangered;
+}
+
+.favoriteSite__rank {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "link1 upDown1"
+    "link2 upDown2"
+    "link3 upDown3"
+    "link4 upDown4";
+  padding-left: 0;
+  list-style: none;
+}
+
+.favoriteSite__link {
+  font-size: 0.6875rem;
+  color: black;
+}
+
+.favoriteSite__link .link1 {
+  grid-area: link1;
+}
+
+.favoriteSite__link .link2 {
+  grid-area: link2;
+}
+.favoriteSite__link .link3 {
+  grid-area: link3;
+}
+.favoriteSite__link .link4 {
+  grid-area: link4;
+}
+
+.favoriteSite__link .upDown1 {
+  grid-area: upDown1;
+}
+
+.favoriteSite__link .upDown2 {
+  grid-area: upDown2;
+}
+
+.favoriteSite__link .upDown3 {
+  grid-area: upDown3;
+}
+
+.favoriteSite__link .upDown4 {
+  grid-area: upDown4;
+}
+
+.favoriteSite__more {
+}
