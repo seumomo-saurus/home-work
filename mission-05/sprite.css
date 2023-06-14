@@ -8,19 +8,23 @@ a {
 }
 
 .favoriteSite {
+  position: relative;
+
   width: 11.875rem;
   height: 9.1875rem;
-  background: linear-gradient(180deg, #ccc 0%, #eee 100%);
+  padding: 0.75rem;
+
   border: 1px solid #a3a3a3;
   border-radius: 5px;
-  padding: 0.75rem;
+
+  background: linear-gradient(180deg, #ccc 0%, #eee 100%);
 }
 
 .favoriteSite__title {
+  margin-top: 0;
+
   font-size: 0.9375rem;
   font-weight: 700;
-
-  margin-top: 0;
 }
 
 .orangeText {
@@ -28,52 +32,78 @@ a {
 }
 
 .favoriteSite__rank {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-    "link1 upDown1"
-    "link2 upDown2"
-    "link3 upDown3"
-    "link4 upDown4";
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+
   padding-left: 0;
+
   list-style: none;
 }
 
 .favoriteSite__link {
+  display: grid;
+  grid-template-columns: 1.25rem max-content 1fr;
+
   font-size: 0.6875rem;
   color: black;
 }
 
-.favoriteSite__link .link1 {
-  grid-area: link1;
+.favoriteSite__link::before {
+  width: 16px;
+  height: 16px;
+
+  border-radius: 5px;
+
+  text-align: center;
+  color: white;
+
+  background: #a3a3a3;
 }
 
-.favoriteSite__link .link2 {
-  grid-area: link2;
-}
-.favoriteSite__link .link3 {
-  grid-area: link3;
-}
-.favoriteSite__link .link4 {
-  grid-area: link4;
+.link1::before {
+  content: "1";
 }
 
-.favoriteSite__link .upDown1 {
-  grid-area: upDown1;
+.link2::before {
+  content: "2";
 }
 
-.favoriteSite__link .upDown2 {
-  grid-area: upDown2;
+.link3::before {
+  content: "3";
 }
 
-.favoriteSite__link .upDown3 {
-  grid-area: upDown3;
+.link4::before {
+  content: "4";
 }
 
-.favoriteSite__link .upDown4 {
-  grid-area: upDown4;
+[class*="UpDown"] {
+  width: 9px;
+  height: 11px;
+
+  justify-self: end;
+  align-self: center;
+  background: url(./images/rank.png) no-repeat;
+}
+
+.rank1UpDown,
+.rank4UpDown {
+  background-position: 0 0;
+}
+
+.rank2UpDown {
+  background-position: 0 -44px;
+}
+
+.rank3UpDown {
+  background-position: 0 -22px;
 }
 
 .favoriteSite__more {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+
+  font-size: 0.875rem;
+  font-weight: 400;
 }
